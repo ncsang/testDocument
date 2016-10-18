@@ -32,8 +32,8 @@
               }]
           });
           x_collection.push(xAxis_plot);
-      }else{
-          var section_number = exist_section.indexOf(survey_feature_item.Section);
+      }else{`
+          `var section_number = exist_section.indexOf(survey_feature_item.Section);
 
           if(plot_collection[section_number].name == survey_feature_item.Section) {
               plot_collection[section_number].data.push({
