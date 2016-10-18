@@ -19,33 +19,17 @@
 
 * After that, we use an array named `exist_section` to contains the name of sections which are in the shown object. There is a `section_number` parameter which is used as index of section to map the current dot with its section object:
 
-    `if(exist_section.indexOf(survey_feature_item.Section) < 0) {
-          exist_section.push(survey_feature_item.Section);
-          plot_collection.push({
-              name: survey_feature_item.Section,
-              data: [{
-                  ranking_number: ranking_number,
-                  x: xAxis_plot,
-                  y: yAxis_plot,
-                  feature_name: feature_name,
-                  feature_score: feature_score
-              }]
+    `if(plot_collection[section_number].name == survey_feature_item.Section) {
+          plot_collection[section_number].data.push({
+              ranking_number: ranking_number,
+              x: xAxis_plot,
+              y: yAxis_plot,
+              feature_name: feature_name,
+              feature_score: feature_score
           });
           x_collection.push(xAxis_plot);
-      }else{`
-          `var section_number = exist_section.indexOf(survey_feature_item.Section);
 
-          if(plot_collection[section_number].name == survey_feature_item.Section) {
-              plot_collection[section_number].data.push({
-                  ranking_number: ranking_number,
-                  x: xAxis_plot,
-                  y: yAxis_plot,
-                  feature_name: feature_name,
-                  feature_score: feature_score
-              });
-              x_collection.push(xAxis_plot);
-          }
-      }`
+    }`
 
 # Reference Resources
 
