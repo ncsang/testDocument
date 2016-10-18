@@ -2,6 +2,7 @@
 
 ## Import Highcharts library
 * To import Highcharts in this project, make sure that the project imported jquery, then add the below code to ../app/View/Layouts/default.ctp:
+
     `<script src="<?php echo $this->webroot; ?>js/highcharts/highcharts.js"></script>`
 
 ## Matrix graphs
@@ -31,9 +32,8 @@
 
           });
 
-          x_collection.push(xAxis_plot);
-    }
-`
+          x_collection.push(xAxis_plot);}
+
 # Reference Resources
 
 * [CakePHP coding standards](http://book.cakephp.org/2.0/en/contributing/cakephp-coding-conventions.html)
