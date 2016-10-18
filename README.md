@@ -50,6 +50,17 @@
               }
           }
 
+* Finally, use syntax `$(id).highcharts({...})` to start to create the chart.
+
+** Notes: To use download function with the large screen, use the code below:
+
+            exporting: {
+              sourceWidth: 1100,
+              sourceHeight: 550,
+              scale: 2,
+              printMaxWidth: 1300
+            },
+
 # Reference Resources
 
 * [CakePHP coding standards](http://book.cakephp.org/2.0/en/contributing/cakephp-coding-conventions.html)
