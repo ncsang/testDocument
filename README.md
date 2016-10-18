@@ -33,7 +33,7 @@
 
           x_collection.push(xAxis_plot);
     }
-
+`
 # Reference Resources
 
 * [CakePHP coding standards](http://book.cakephp.org/2.0/en/contributing/cakephp-coding-conventions.html)
