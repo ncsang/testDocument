@@ -8,7 +8,7 @@
 ## Matrix graphs
 * In this graph, we use an ajax to get a feed from backend side first. Then use an array to contains the ranking number and others parameters. These others parameters in this array help us matching the ranking number and object easily.
 * The below code is a peace of code to set data to the ranking number array:
-
+    
     ranking_number_collection.push({
        ranking_number: 0,
        feature_name: data[i]['Surveyfeature'].Feature_name,
