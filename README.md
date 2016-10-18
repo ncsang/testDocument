@@ -7,6 +7,7 @@
 ## Matrix graphs
 * In this graph, we use an ajax to get a feed from backend side first. Then use an array to contains the ranking number and others parameters. These others parameters in this array help us matching the ranking number and object easily.
 * The below code is a peace of code to set data to the ranking number array:
+
     `ranking_number_collection.push({
        ranking_number: 0,
        feature_name: data[i]['Surveyfeature'].Feature_name,
@@ -15,10 +16,10 @@
        section: data[i]['Surveyfeature'].Section,
        survey_feature_score_id: data[i]['SurveyfeaturesScore'].id
      });`
+
 * After that, we use an array named `exist_section` to contains the name of sections which are in the shown object. There is a `section_number` parameter which is used as index of section to map the current dot with its section object:
 
-    `
-    if(exist_section.indexOf(survey_feature_item.Section) < 0) {
+    `if(exist_section.indexOf(survey_feature_item.Section) < 0) {
           exist_section.push(survey_feature_item.Section);
           plot_collection.push({
               name: survey_feature_item.Section,
@@ -44,8 +45,7 @@
               });
               x_collection.push(xAxis_plot);
           }
-      }
-    `
+      }`
 
 # Reference Resources
 
