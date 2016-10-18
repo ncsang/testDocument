@@ -2,7 +2,7 @@
 
 ## Import Highcharts library
 * To import Highcharts in this project, make sure that the project imported jquery, then use the below code to import library to the project:
-    <script src="<?php echo $this->webroot; ?>js/highcharts/highcharts.js"></script>
+    `<script src="<?php echo $this->webroot; ?>js/highcharts/highcharts.js"></script>`
 
 
 # Reference Resources
