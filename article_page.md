@@ -5,6 +5,7 @@ Articles are created for displaying the content of reports. When a user open a r
 
 ### Table 1 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_client_performance/:employer_brand_id/:channel/:year/:edition_short_name   return Table 1
 	
 **Header:**
@@ -22,7 +23,7 @@ edition_short_name| required | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -33,6 +34,7 @@ HTTP Status Code | Reason | Response Model
 
 ### Table 2 REST
 **Request url:**
+
 	GET /api/rankdata/api_rankings/:edition_shortname/:topic/:year   return Table 2
 
 **Header:**
@@ -49,7 +51,7 @@ year              | required | int    |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -60,6 +62,7 @@ HTTP Status Code | Reason | Response Model
 
 ### Table 3 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_ranking_section/:surveyfeatures_channel/:section_id/:edition_short_name/:employer_brand_id/:benchmarks
 
 **Header:**
@@ -78,7 +81,7 @@ benchmarks             | required | string | a string with benchmarks which is s
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -90,6 +93,7 @@ HTTP Status Code | Reason | Response Model
 
 ### Table 4 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_max_score_section/:surveyfeatures_channel/:section_id/:edition_short_name/:employer_brand_id   return Table 4
 
 **Header:**
@@ -107,7 +111,7 @@ employer_brand_id      | required | int    |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -119,6 +123,7 @@ HTTP Status Code | Reason | Response Model
 
 ### Table 5 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_feature_importance_in_section/:employer_brand_id/:surveyfeatures_channel/:year/:edition_short_name/:section_id   return Table 5
 	
 **Header:**
@@ -137,7 +142,7 @@ section_id             | required | int    |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -149,6 +154,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 8 REST
 **Request url:**	
+
 	GET /api/DataFeeds/get_features_benchmarks/:employer_brand_id/:surveyfeatures_channel/:year/:edition_short_name/:employer_brand_benchmarks   return Table 
 
 **Header:**
@@ -167,7 +173,7 @@ employer_brand_benchmarks | required | string | a string with benchmarks which i
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -179,6 +185,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 9 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_company_url/:year/:channel_id/:edition_short_name/:employer_brand_id_benchmark   return Table 9
 	
 **Header:**
@@ -196,7 +203,7 @@ employer_brand_id_benchmark | required | string | a string with benchmarks which
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -208,6 +215,7 @@ HTTP Status Code | Reason | Response Model
 
 ### Table 10 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_matrix_missing_features/:employer_brand_id/:topic/:year/:edition_short_name   return Table 10
 		
 **Header:**
@@ -225,7 +233,7 @@ edition_short_name          | required | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -237,6 +245,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 12 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_ranking_some_channel/:employer_brand_id/:surveyfeatures_channel/:edition_short_name/:year   return Table 11
 		
 **Header:**
@@ -254,7 +263,7 @@ year                        | required | int    |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -266,6 +275,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 13 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_ranking_features_some_channel/:employer_brand_id/:surveyfeatures_channel/:year/:edition_short_name   return Table 12
 	
 **Header:**
@@ -283,7 +293,7 @@ edition_short_name          | required | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -295,6 +305,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 14 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_features_benchmarks_some/:employer_brand_id/:channel/:year/:edition_short_name/:employer_brand_benchmarks   return Table 14
 	
 **Header:**
@@ -313,7 +324,7 @@ employer_brand_benchmarks   | required | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -325,6 +336,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 15 REST
 **Request url:**
+
 	GET /api/rankdata/get_ranking_benchmarks/:edition_shortname/:topic/:year/:benchmark_ids_string   return Table 15
 
 **Header:**
@@ -342,7 +354,7 @@ benchmark_ids_string        | required | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -354,6 +366,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 17 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_industry_ranking/:year/:topic/:edition_short_name/:employer_brand_id   return Table 17
 	
 **Header:**
@@ -371,7 +384,7 @@ employer_brand_id           | required | int    |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -383,6 +396,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 20 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_email_testing_facebook/:employer_brand_id/:year/:edition_short_name/:employer_brand_benchmarks   return Table 20
 	
 **Header:**
@@ -400,7 +414,7 @@ employer_brand_benchmarks   | required | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -412,6 +426,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 22 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_table_missing_features_some_channel/:employer_brand_id/:surveyfeatures_channel/:year/:edition_short_name   return Table 22
 	
 **Header:**
@@ -429,7 +444,7 @@ edition_short_name          | required | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -441,6 +456,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 23 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_client_performance_some_channel/:employer_brand_id/:surveyfeatures_channel/:year/:edition_short_name   return Table 23
 	
 **Header:**
@@ -458,7 +474,7 @@ edition_short_name          | required | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -470,6 +486,7 @@ HTTP Status Code | Reason | Response Model
 	  
 ### Table 26 REST
 **Request url:**
+
 	GET /api/Data_feeds/get_missing_feat_gl_sum/:employer_brand_id/:channel/:year/:edition_short_name/:employer_brand_benchmarks   return Table 26
 	
 **Header:**
@@ -488,7 +505,7 @@ employer_brand_benchmarks   | no require | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -500,6 +517,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 45 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_table_20_missing_features/:employer_brand_id/:surveyfeatures_channel/:year/:edition_short_name   return Table 45
 	
 **Header:**
@@ -517,7 +535,7 @@ edition_short_name          | required | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -529,6 +547,7 @@ HTTP Status Code | Reason | Response Model
 	 
 ### Table 36 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_channel_company_ranking/:edition_short_name/:employer_brand_id   return Table 36
 
 **Header:**
@@ -544,7 +563,7 @@ employer_brand_id           | required | int    |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -556,6 +575,7 @@ HTTP Status Code | Reason | Response Model
 	  
 ### Table 37 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_graph_company_ranking_bench/:topic/:edition_short_name/:employer_brand_id/:benchmarks   return Table 37
 	
 **Header:**
@@ -573,7 +593,7 @@ benchmarks                  | required | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -585,6 +605,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 38 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_graph_company_ranking_edition/:topic/:employer_brand_id   return Table 38
 	
 **Header:**
@@ -600,7 +621,7 @@ employer_brand_id           | required | int    |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -612,6 +633,7 @@ HTTP Status Code | Reason | Response Model
 
 ### Table 39 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_graph_cat_company_ranking_ed/:year/:employer_brand_id/:employer_brand_id_benchmark/:edition_short_name/:channel   return Table 39
 **Header:**
 
@@ -629,7 +651,7 @@ channel                     | required | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -641,6 +663,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 40 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_graph_cat_company_ranking_ed_some/:year/:employer_brand_id   return Table 40
 
 **Header:**
@@ -656,7 +679,7 @@ employer_brand_id           | required | int |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -668,6 +691,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 41 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_some_overview_topic/:year/:edition_short_name   return Table 41
 
 **Header:**
@@ -683,7 +707,7 @@ edition_short_name          | required | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -695,7 +719,9 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 42 REST
 **Request url:**
-| GET      | /api/DataFeeds/get_graph_cat_company_rank_bench/:year/:employer_brand_id/:employer_brand_id_benchmark/:edition_short_name/:channel   return Table 42
+
+	GET /api/DataFeeds/get_graph_cat_company_rank_bench/:year/:employer_brand_id/:employer_brand_id_benchmark/:edition_short_name/:channel   return Table 42
+	
 **Header:**
 
 	Content-Type: application/json
@@ -704,15 +730,15 @@ HTTP Status Code | Reason | Response Model
 
 Name                        | Required | Format | Description
 --------------------------- | -------- | ------ | -----------
-employer_brand_id           | required | int    | 
-surveyfeatures_channel      | required | string |
 year                        | required | int    |
+employer_brand_id           | required | int    | 
+employer_brand_id_benchmark | required | string |
 edition_short_name          | required | string |
 channel                     | required | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -724,6 +750,7 @@ HTTP Status Code | Reason | Response Model
 	
 ### Table 43 REST
 **Request url:**
+
 	GET /api/DataFeeds/get_graph_cat_company_rank_bench_some/:year/:employer_brand_id/:employer_brand_id_benchmark/:edition_short_name   return Table 43
 
 **Header:**
@@ -741,7 +768,7 @@ edition_short_name          | required | string |
 
 **Request:**
 
-```
+ 
 
 **Response Messages:**
 
@@ -752,6 +779,7 @@ HTTP Status Code | Reason | Response Model
 
 ### Trend Graphs REST
 **Request url:**
+
 	POST /api/api_trends/trend_response.json   return one of 3 types of graphs (BCP type, BCA type and CC type)
 	
 **Header:**
@@ -769,7 +797,7 @@ HTTP Status Code | Reason | Response Model
 		"filter_years": ["2017"]
 	}
 }
-```
+ 
 
 **Response Messages:**
 
